@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="scoops">Number of Scoops</label>
+        <input id="scoops"></input>
+        <br/>
+        <input type="radio" name="type" id="cup" value="cup"/>
+        <label for="cup">Cup</label>
+        <input type="radio" name="type" id="cone" value="cone"/>
+        <label for="cone">Cone</label>
+        <div id="toppings">
+            <h3>Toppings</h3>
+            <input type="checkbox" name="toppings" id="sprinkles" value="sprinkles">
+            <label for="sprinkles">Sprinkles ($0.50)</label>
+            <input type="checkbox" name="toppings" id="whippedcream" value="whippedcream">
+            <label for="whippedcream">Whipped Cream ($0.25)</label>
+            <input type="checkbox" name="toppings" id="hotfudge" value="hotfudge">
+            <label for="hotfudge">Hot Fudge ($1.25)</label>
+            <input type="checkbox" name="toppings" id="cherry" value="cherry">
+            <label for="cherry">Cherry ($0.25)</label>
+        </div>
+        <button>Place Order</button>
+        <div id="subtotal">
+            <span id="base">Base Price: $xx.xx</span><br>
+            <span id="tax">Tax: $xx.xx</span><br>
+            <span id="total">Total: $xx.xx</span>
+        </div>
+    </form>
+</body>
+</html>
